@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+*:focus{
+    outline: none;
+    border: none;
+}
+
+a{
+    color: unset;
+}
+
+header{
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* Navbar Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 0px;
+    width: 90%;
+    margin: 0px auto;
+}
+nav .nav-item{
+    color:#fff;
+    margin: 0px 10px;
+}
+
+nav div.container{
+    display: flex;
+}
+
+nav.nav-item.app{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+nav div.nav-item{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+header  div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+header img.logo{
+    width: 300px;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* Header Content */
+
+header div.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+}
+
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0 50px;
+}
+
+header div.search-box i{
+    margin: 10px;
+}
+
+header div.search-box div.select i{
+    color: #F57086;
+}
+
+header div.search-box div.input i{
+    color: #828282b7;
+}
+
+header div.search-box div.seperator {
+    height: 50%;
+    background-color: #8282829b;
+    width: 2px;
+}
+
+header div.search-box div.input{
+    flex-grow: 80;
+}
+
+header div.search-box div.input input{
+    width: 100%;
+}
